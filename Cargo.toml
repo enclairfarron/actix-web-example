@@ -1,0 +1,17 @@
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+authors = ["enclairfarron <brucelu1018@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+log = "0.4.0"
+env_logger = "0.7.1"
+diesel = { version = "1.4.0", features = ["mysql"] }
+dotenv = "0.10"
